@@ -21,5 +21,5 @@ def main():
     image = take_image()
     digi_signature(image)
 
-
-main()
+if __name__ == "__main__":
+    main()
